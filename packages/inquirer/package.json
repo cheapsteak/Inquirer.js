@@ -1,5 +1,5 @@
 {
-  "name": "inquirer",
+  "name": "@cheapsteak/inquirer",
   "version": "6.2.2",
   "description": "A collection of common interactive command line user interfaces.",
   "author": "Simon Boudrias <admin@simonboudrias.com>",

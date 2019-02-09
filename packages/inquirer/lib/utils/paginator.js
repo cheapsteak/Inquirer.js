@@ -31,15 +31,6 @@ class Paginator {
       return output;
     }
 
-    // Move the pointer only when the user go down and limit it to the middle of the list
-    if (
-      this.pointer < middleOfList &&
-      this.lastIndex < active &&
-      active - this.lastIndex < pageSize
-    ) {
-      this.pointer = Math.min(middleOfList, this.pointer + active - this.lastIndex);
-    }
-
     this.lastIndex = active;
 
     // Duplicate the lines so it give an infinite list look
